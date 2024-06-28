@@ -3,7 +3,6 @@
 
 using namespace std;
 
-/*
 HRESULT VDJ_API CMyPlugin8::OnLoad()
 {
     return S_OK;
@@ -14,7 +13,6 @@ ULONG VDJ_API CMyPlugin8::Release()
     delete this
     return 0;
 }
-*/
 
 HRESULT VDJ_API CMyPlugin8::OnGetPluginInfo(TVdjPluginInfo8* infos)
 {
