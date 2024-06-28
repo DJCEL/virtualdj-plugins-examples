@@ -11,8 +11,8 @@
 class CMyPlugin8 : public IVdjPluginOnlineSource
 {
 public:
-    //HRESULT VDJ_API OnLoad() override;
-    //ULONG   VDJ_API Release() override;
+    HRESULT VDJ_API OnLoad() override;
+    ULONG   VDJ_API Release() override;
     HRESULT VDJ_API OnGetPluginInfo(TVdjPluginInfo8* infos) override;
     HRESULT VDJ_API OnSearch(const char* search, IVdjTracksList* tracksList) override;
     HRESULT VDJ_API OnSearchCancel() override;
